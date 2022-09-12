@@ -137,7 +137,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-
   margin-bottom: 40px;
 }
 
@@ -146,6 +145,7 @@
   justify-content: center;
   margin: 0 0 20px 0;
   width: 60%;
+  text-align: center;
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
@@ -229,6 +229,7 @@
   font-size: 36px;
   line-height: 51px;
   font-weight: normal;
+  text-decoration: none;
   color: #2f80ed;
 }
 
@@ -238,4 +239,50 @@
   bottom: 0;
   width: 867px;
   height: 637px;
+}
+
+/* kaufman */
+
+.kaufman {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #1f1f1f;
+  overflow: hidden;
+}
+
+.section-title__theme_dark {
+  color: #ffffff;
+  margin: 90px 0 20px 0;
+  z-index: 1;
+}
+
+.section-subtitle__theme_dark {
+  color: #ffffff;
+  margin-bottom: 80px;
+  z-index: 1;
+}
+
+.table__cell__theme_dark {
+  width: 200px;
+  margin-bottom: 80px;
+  z-index: 1;
+}
+
+.table__heading__theme_dark {
+  color: #ffffff;
+}
+
+.table__text__theme_dark {
+  color: #ffffff;
+}
+
+.kaufman__triangle {
+  position: absolute;
+  width: 660px;
+  height: 636px;
+  z-index: 0;
+  top: 0;
+  right: -124px;
 }
