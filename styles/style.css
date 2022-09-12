@@ -309,6 +309,7 @@
   display: flex;
   flex-basis: 711px;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .footer__author {
@@ -316,9 +317,9 @@
 }
 
 .logo__place_footer {
-  position: static;
   width: 183px;
   height: 35px;
+  position: static;
 }
 
 .footer__columns__content_about {
@@ -333,5 +334,7 @@
 }
 
 .footer__column-link {
+  color: #ffffff;
   padding: 0;
+  text-decoration: none;
 }
