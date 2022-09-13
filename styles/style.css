@@ -303,7 +303,7 @@
   width: 90%;
   color: #ffffff;
   justify-content: space-between;
-  align-content: stretch;
+  flex-grow: 1;
 }
 
 .footer__columns__content_copyright {
@@ -327,7 +327,6 @@
 .footer__columns__content_about {
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
 .footer__list {
@@ -337,7 +336,7 @@
 }
 
 .footer__column-heading {
-  margin-bottom: 20px;
+  margin: 0 0 20px 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
