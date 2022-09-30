@@ -1,0 +1,7 @@
+.digits {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 40px;
+  margin-top: 90px;
+}
