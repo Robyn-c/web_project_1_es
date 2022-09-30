@@ -18,8 +18,8 @@
   position: relative;
   background-color: #f2f2f2;
   margin-bottom: 100px;
-  /* parameters for the header section */
 }
+/* parameters for the header section */
 
 /* here we have two examples of selectors in order to remind you how to set styles for elements */
 .header__square-pic {
@@ -192,65 +192,7 @@
   font-weight: normal;
 }
 
-/* feynmann */
-
-.feynman {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #f2f2f2;
-  height: 790px;
-}
-
-.feynman__title {
-  align-items: center;
-  text-align: center;
-  margin: 100px 0 70px 0;
-  width: 775px;
-  z-index: 1;
-  font-size: 120px;
-  line-height: 1.15;
-  font-weight: bold;
-}
-
-.feynman__subtitle {
-  z-index: 1;
-  margin: 0;
-  font-size: 36px;
-  line-height: 51px;
-  font-weight: normal;
-}
-
-.feynman__link {
-  position: absolute;
-  top: 50%;
-  right: 48px;
-  font-size: 36px;
-  line-height: 51px;
-  font-weight: normal;
-  text-decoration: none;
-  color: #2f80ed;
-}
-
-.feynman__image {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 867px;
-  height: 637px;
-}
-
 /* kaufman */
-
-.kaufman {
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  background-color: #1f1f1f;
-  overflow: hidden;
-}
 
 .section-title__theme_dark {
   color: #ffffff;
@@ -276,15 +218,6 @@
 
 .table__text__theme_dark {
   color: #ffffff;
-}
-
-.kaufman__triangle {
-  position: absolute;
-  width: 660px;
-  height: 636px;
-  z-index: 0;
-  top: 0;
-  right: -124px;
 }
 
 .footer {
