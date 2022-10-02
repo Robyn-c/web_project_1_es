@@ -1,0 +1,26 @@
+.khan {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.khan__container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.khan__quote {
+  width: 790px;
+}
+
+.khan__book-container {
+  display: flex;
+  width: 620px;
+  height: 608px;
+}
+
+.khan__book-pic {
+  object-fit: contain;
+}
