@@ -2,13 +2,13 @@
   z-index: 1;
 }
 
-.logo__place_footer {
+.logo_place_footer {
   width: 183px;
   height: 35px;
   position: static;
 }
 
-.logo__place_header {
+.logo_place_header {
   position: absolute;
   top: 30px;
   left: 64px;

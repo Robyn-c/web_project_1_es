@@ -14,7 +14,7 @@
   margin-bottom: 60px;
   z-index: 1;
 }
-.table__cell__theme_dark {
+.table__cell_theme_dark {
   width: 200px;
   color: white;
   margin: 80px 0 80px 0;
@@ -27,7 +27,7 @@
   font-weight: bold;
 }
 
-.table__heading__theme_dark {
+.table__heading_theme_dark {
   color: #ffffff;
 }
 
@@ -39,6 +39,6 @@
   font-weight: normal;
 }
 
-.table__text__theme_dark {
+.table__text_theme_dark {
   color: #ffffff;
 }
