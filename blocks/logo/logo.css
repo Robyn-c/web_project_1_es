@@ -1,6 +1,16 @@
-@import url("__place/logo__place_header.css");
-@import url("__place/logo__place_footer.css");
-
 .logo {
   z-index: 1;
+}
+
+.logo__place_footer {
+  width: 183px;
+  height: 35px;
+  position: static;
+}
+
+.logo__place_header {
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  width: 154px;
 }

@@ -1,14 +1,70 @@
-@import url("__author/khan__author.css");
-@import url("__book-container/khan__book-container.css");
-@import url("__book-pic/khan__book-pic.css");
-@import url("__buy-link/khan__buy-link.css");
-@import url("__container/khan__container.css");
-@import url("__quote/khan__quote.css");
-@import url("__quote-author/khan__quote-author.css");
-@import url("__title/khan__title.css");
-@import url("__quote-author-subline/khan__quote-author-subline");
-
 .khan {
   padding-top: 105px;
   background-color: #f2f2f2;
+}
+
+.khan__container {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.khan__title {
+  line-height: 1.15;
+  font-size: 60px;
+  margin-bottom: 50px;
+}
+
+.khan__author {
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.khan__quote {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin-bottom: 36px;
+}
+
+.khan__quote-author {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.khan__quote-author-subline {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.khan__book-container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 48px;
+  height: 550px;
+  margin-top: 68px;
+}
+
+.khan__book-pic {
+  background-image: url("/images/khan-book-2.png");
+  background-size: cover;
+  width: 620px;
+  height: 608px;
+}
+
+.khan__buy-link {
+  line-height: 42px;
+  font-size: 30px;
+  font-weight: normal;
+  color: #2f80ed;
+  text-decoration: none;
+  transition: opacity 0.25s ease-in-out;
+}
+
+.khan__buy-link:hover {
+  opacity: 0.5;
 }
