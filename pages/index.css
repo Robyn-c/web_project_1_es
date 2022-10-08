@@ -19,6 +19,7 @@
 @import url("../blocks/feynman/__title/feynman__title.css");
 
 /* footer */
+@import url("../blocks/footer/footer.css");
 @import url("../blocks/footer/__author/footer__author.css");
 @import url("../blocks/footer/__column-heading/footer__column-heading.css");
 @import url("../blocks/footer/__column-link/footer__column-link.css");
@@ -43,6 +44,7 @@
 @import url("../blocks/kaufman/__triangle/kaufman__triangle.css");
 
 /* khan */
+@import url("../blocks/khan/khan.css");
 @import url("../blocks/khan/__author/khan__author.css");
 @import url("../blocks/khan/__quote/khan__quote.css");
 @import url("../blocks/khan/__book-container/khan__book-container.css");
