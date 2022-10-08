@@ -1,16 +1,7 @@
+@import url("__iframe/video__iframe.css");
+@import url("__iframes/video__iframes.css");
+
 .video {
   margin: 0 auto;
   width: 100%;
-}
-
-.video__iframes {
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  height: 250px;
-}
-
-.video__iframe {
-  border: 0;
 }

@@ -1,3 +1,9 @@
+@import url("__cell/table__cell.css");
+@import url("__cell/_theme/table__cell_theme_dark.css");
+@import url("__heading/table_heading.css");
+@import url("__text/table__text.css");
+@import url("_theme/table_theme_dark.css");
+
 .table {
   padding: 0;
   margin: 0;
@@ -5,40 +11,5 @@
   flex-wrap: wrap;
   justify-content: space-between;
   width: 1100px;
-}
-
-.table__cell {
-  width: 250px;
-  list-style-type: none;
-  justify-content: space-around;
-  margin-bottom: 60px;
-  z-index: 1;
-}
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin: 80px 0 80px 0;
-}
-
-.table__heading {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 24px;
-  font-weight: bold;
-}
-
-.table__heading_theme_dark {
-  color: #ffffff;
-}
-
-.table__text {
-  margin: 0;
-  padding-top: 20px;
-  line-height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-}
-
-.table__text_theme_dark {
-  color: #ffffff;
+  row-gap: 60px;
 }
